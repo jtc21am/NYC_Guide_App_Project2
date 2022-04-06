@@ -7,14 +7,14 @@ Presented here is a pair project Django app which serves as a guide for users se
 
 ---
 
-## Contributors ##
+### _Contributors_ ###
 
 - [Asha Maurya](https://github.com/jtc21am)  
 - [Ulysses Ware](https://github.com/ThomasWare)
 
 ---
 
-## Setting up the Virtual Environment ##
+### _Setting up the Virtual Environment_ ###
 
 After cloning this repo into a directory, you will need create a new virtual environment.
 
@@ -35,7 +35,7 @@ Run one of the following commands depending on the type of operating system you 
 
 ---
 
-## Install Project Dependencies ##
+### _Install Project Dependencies_ ###
 
 Install the project dependencies.
 
@@ -50,7 +50,7 @@ Run the following commands:
 
 ---
 
-## Running the Application ##
+### _Running the Application_ ###
 
 Navigate to the `nyc-guide` directory.
 
@@ -64,7 +64,7 @@ Now you should be able to point your browser to [http://localhost:8000](http://l
 
 ---
 
-## Stopping the Application ##
+### _Stopping the Application_ ###
 
 Shut down the server.
 
@@ -74,7 +74,7 @@ Run the following command in the terminal:
 ```
 
 
-## Exiting the Virtual Environment ##
+### _Exiting the Virtual Environment_ ###
 
 Run the following command:
 
@@ -84,7 +84,7 @@ Run the following command:
 
 ---
 
-## Structure ##
+### _Structure_ ###
 
 The structure of the web pages corresponds to the following (along with their URL paths):
 
@@ -133,7 +133,7 @@ The structure of the web pages corresponds to the following (along with their UR
   
 ---
 
-## Technical ##
+### _Technical_ ###
 Project required the implementation of:
 1. Activity page (view and template) rendered at URL `<str:borough>/<str:activity>`(i.e. list of beaches, parks)
 2. The Venue page (view and template) rendered at URL `<str:borough>/<str:activity>/<str:venue>` (i.e. details of a venue like Brighton Beach)
