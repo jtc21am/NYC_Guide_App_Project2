@@ -3,7 +3,7 @@ Project 2 Build NYC Guide in Django/Python
 
 ![NYC](https://s-media-cache-ak0.pinimg.com/originals/eb/8f/82/eb8f82555f88f8364929e5e829702caf.jpg)
 
-This Django app is a pair-progrmming project that serves as a guide for users looking for activities and events in New York City, categorized by the city's boroughs.
+Presented here is a pair project Django app which serves as a guide for users searching for activities and events in New York City, categorized by the city's boroughs.
 
 ---
 
@@ -16,13 +16,17 @@ This Django app is a pair-progrmming project that serves as a guide for users lo
 
 ## Setting up the Virtual Environment ##
 
-After cloning this repo into a directory, you need to create a new virtual environment. Run the following command:
+After cloning this repo into a directory, you will need create a new virtual environment.
+
+Run the following command:
 
 ```bash
   python -m venv venv  # you may have to use python3 instead of python
 ```
 
-Now you need to activate the virtual environment. Do this with one of the following commands depending on the type of operating system you are using:
+Activate the virtual environment.
+
+Run one of the following commands depending on the type of operating system you are using:
 
 > MacOS, Linux, ChromeOS:  
 > `source venv/bin/activate`  
@@ -33,7 +37,11 @@ Now you need to activate the virtual environment. Do this with one of the follow
 
 ## Install Project Dependencies ##
 
-To install the project dependencies, run the following commands in the project's root directory:
+Install the project dependencies.
+
+Navigate to the project's root directory.
+
+Run the following commands:
 
 ```bash
   pip install django
@@ -44,7 +52,9 @@ To install the project dependencies, run the following commands in the project's
 
 ## Running the Application ##
 
-Now you can run the application! First navigate to the `nyc-guide` directory and run the following commmand:
+Navigate to the `nyc-guide` directory.
+
+Run the following commmand:
 
 ```bash
   python manage.py runserver # you may have to replace python with python3
@@ -56,7 +66,17 @@ Now you should be able to point your browser to [http://localhost:8000](http://l
 
 ## Stopping the Application ##
 
-After you are done navigating the app. You can shut the server down by typing `Ctrl+C` in the terminal. You can then exit the virtual environment by using the following command:
+Shut down the server.
+
+Run the following command in the terminal:
+
+```Ctrl+C
+```
+
+
+## Exiting the Virtual Environment ##
+
+Run the following command:
 
 ```bash
   deactivate
