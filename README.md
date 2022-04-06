@@ -1,5 +1,6 @@
-# New York City Guide - Activities and Venues by Borough
-## Build an App in Django/Python
+# New York City Guide
+## Activities and Venues by Borough
+### _Build an App in Django/Python_ ###
 
 ![NYC](https://s-media-cache-ak0.pinimg.com/originals/eb/8f/82/eb8f82555f88f8364929e5e829702caf.jpg)
 
