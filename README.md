@@ -20,8 +20,9 @@ After cloning this repo into a directory, you will need create a new virtual env
 
 Run the following command:
 
-```bash
-  python -m venv venv  # you may have to use python3 instead of python
+```
+    bash
+    python -m venv venv  # you may have to use python3 instead of python
 ```
 
 Activate the virtual environment.
@@ -43,9 +44,10 @@ Navigate to the project's root directory.
 
 Run the following commands:
 
-```bash
-  pip install django
-  pip freeze install > requirements.txt
+```
+    bash
+    pip install django
+    pip freeze install > requirements.txt
 ```
 
 ---
@@ -56,7 +58,9 @@ Navigate to the `nyc-guide` directory.
 
 Run the following commmand:
 
-```bash
+```
+  bash
+  
   python manage.py runserver # you may have to replace python with python3
 ```
 
@@ -70,7 +74,8 @@ Shut down the server.
 
 Run the following command in the terminal:
 
-```Ctrl+C
+```
+    Ctrl+C
 ```
 
 
@@ -78,8 +83,10 @@ Run the following command in the terminal:
 
 Run the following command:
 
-```bash
-  deactivate
+```
+    bash
+    
+    deactivate
 ```
 
 ---
