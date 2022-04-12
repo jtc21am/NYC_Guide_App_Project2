@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {text-align: center;}
+h2 {text-align: center;}
+</style>
+</head>
+<body>
+<!-- Display value of 'borough' which is sent as context from BoroughView -->
+<h1>New York City Guide</h1>
+<h2>{{  borough | title }}</h2>
+<!-- Display value of 'borough' which is sent as context from BoroughView -->
+<h2>{{ activity | title }}</h2>
+
+<ul>
+<!--Loop through each 'venue' as context being sent from the ActivityView  -->
+    {% for venue in activities %}
+    <li>
+    <!-- Create an anchor tag whcih takes the user to url pattern named = 'venue' -->
+    <!-- Pass the created pattern the variables borough activity venue-->
+        <a href="{% url 'venue' borough activity venue %} ">
+            {{ venue|title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

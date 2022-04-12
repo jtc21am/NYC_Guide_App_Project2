@@ -1,28 +1,37 @@
-# New York City Guide by Borough
-Project 2 Build NYC Guide in Django/Python
+# New York City Guide
+## Activities and Venues by Borough
+### _Build an App in Django/Python_ ###
 
 ![NYC](https://s-media-cache-ak0.pinimg.com/originals/eb/8f/82/eb8f82555f88f8364929e5e829702caf.jpg)
 
-Presented here is a pair project Django app which serves as a guide for users searching for activities and events in New York City, categorized by the city's boroughs.
+Presented here is a Django app which serves as a guide to search for activities and venues in New York City, categorized by the city's boroughs.
 
 ---
 
 ### _Contributors_ ###
 
-- [Asha Maurya](https://github.com/jtc21am)  
-- [Ulysses Ware](https://github.com/ThomasWare)
+- [Asha Maurya](https://github.com/jtc21am)
+
+---
+
+### _Clone the repository from Github_ ###
+
+Clone the repositoy from Github into a directory.
+
+```bash
+  git clone <repository> <path>
+```
 
 ---
 
 ### _Setting up the Virtual Environment_ ###
 
-After cloning this repo into a directory, you will need create a new virtual environment.
+Now create a new virtual environment.
 
 Run the following command:
 
-```
-    bash
-    python -m venv venv  # you may have to use python3 instead of python
+```bash
+  python -m venv venv  # you may have to use python3 instead of python
 ```
 
 Activate the virtual environment.
@@ -40,14 +49,20 @@ Run one of the following commands depending on the type of operating system you 
 
 Install the project dependencies.
 
-Navigate to the project's root directory.
+Navigate to the project root directory.
 
 Run the following commands:
 
+```bash
+  pip install django
 ```
-    bash
-    pip install django
-    pip freeze install > requirements.txt
+
+```bash
+  pip freeze install
+```
+
+```bash
+  requirements.txt
 ```
 
 ---
@@ -58,13 +73,13 @@ Navigate to the `nyc-guide` directory.
 
 Run the following commmand:
 
-```
-  bash
-  
-  python manage.py runserver # you may have to replace python with python3
+```bash
+  python manage.py runserver 
+  # you may have to replace python with python3
 ```
 
-Now you should be able to point your browser to [http://localhost:8000](http://localhost:8000) and use the app.
+Point your browser to use the app:
+[http://localhost:8000](http://localhost:8000)
 
 ---
 
@@ -74,19 +89,18 @@ Shut down the server.
 
 Run the following command in the terminal:
 
-```
-    Ctrl+C
+```bash
+  Ctrl+C
 ```
 
+---
 
 ### _Exiting the Virtual Environment_ ###
 
 Run the following command:
 
-```
-    bash
-    
-    deactivate
+```bash
+  deactivate
 ```
 
 ---
@@ -150,3 +164,5 @@ The following  in this project:
 - Python Classes and Inheritance
 - Django [URLs](https://docs.djangoproject.com/en/3.2/topics/http/urls/) to understand how to capture parameters in views
 - Django [Templates](https://docs.djangoproject.com/en/3.2/ref/templates/language/)
+
+---
