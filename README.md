@@ -10,8 +10,7 @@ Presented here is a Django app which serves as a guide to search for activities 
 
 ### _Contributors_ ###
 
-- [Asha Maurya](https://github.com/jtc21am)  
-- [Ulysses Ware](https://github.com/ThomasWare)
+- [Asha Maurya](https://github.com/jtc21am)
 
 ---
 
